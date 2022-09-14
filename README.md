@@ -11,7 +11,7 @@ docker exec -it elasticsearch bash
 ```
 
 ## execute bin and set a password for the different users
-For testing set all passwords with the value of "12345678 "
+For testing set all passwords with the value of "12345678" if you are going to do a serious deployment set a good password and use that password in metricbeat.yml replacing 12345678 with the goodpassword and that's all.
 ```
 . /usr/share/elasticsearch/bin/elasticsearch-setup-passwords interactive
 ```
